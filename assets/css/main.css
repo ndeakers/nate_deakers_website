@@ -2369,8 +2369,8 @@ input, select, textarea {
 		position: relative;
 	}
 
-		.image img {
-			border-radius: 8px;
+		.image.profile img {
+			border-radius: 50%;
 			display: block;
 		}
 
@@ -2385,7 +2385,7 @@ input, select, textarea {
 		.image.left {
 			float: left;
 			margin: 0 1.5em 1em 0;
-			top: 0.25em;
+			top: .25em;
 		}
 
 		.image.right {
